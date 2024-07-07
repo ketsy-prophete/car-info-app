@@ -1,0 +1,32 @@
+body{
+    text-align: center;
+}
+.firstLineDetails {
+    font-weight: bold;
+}
+.listDiv {
+    margin: auto;
+    border: 3px solid rgb(40, 103, 40);
+    padding: 20px;
+    width: 300px;
+}
+h1 {
+    margin: 0px;
+    padding: 2%;
+    color: rgb(252, 241, 223);
+    background-color: rgb(46, 116, 46);
+}
+h2 {
+    margin: 0;
+    background-color: blanchedalmond;
+    color: rgb(27, 66, 27);
+}
+p {
+    text-align: left;
+}
+.detailsDiv {
+    border: 3px solid rgb(40, 103, 40);
+    margin: auto;
+    padding: 2% 2% 1%;
+    width: 500px;
+}

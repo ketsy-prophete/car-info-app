@@ -1,0 +1,21 @@
+<body>
+    <br>
+
+    <div class="listDiv">
+        <h1>List of Cars</h1>
+        <app-car *ngFor="let entry of carList" [car]="entry" (selectedCar)="displayDetails($event)"></app-car>
+    </div>
+
+    <br>
+
+    <div *ngIf="selection" class="detailsDiv">
+        <h2 *ngIf="selection">Car Details</h2>
+        <p class="firstLineDetails">{{selection.company}} {{selection.carModel}}</p>
+        <p>Year: {{selection.makeYear}}</p>
+        <p>Class of Vehicle: {{selection.vehicleClass}}</p>
+        <p>Body: {{selection.bodyStyle}}</p>
+    </div>
+
+    <br>
+
+</body>
